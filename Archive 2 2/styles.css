@@ -1,0 +1,173 @@
+/* Add background image */
+body {
+  background-image: url('bg-image.jpg');
+  background-size: cover; 
+}
+
+/* Main content styling */
+main {
+  background-color: #ffffff ;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}
+
+/* Consistent section styling */
+section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+} 
+
+/* Styled links */
+/* Default link styling */
+
+a {
+  text-decoration: underline;
+}
+
+/* Remove for navigation links */
+nav a {
+  text-decoration: none; 
+}
+
+/* Footer enhancements */  
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+
+  /* Mobile menu */
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Stack sections */
+  section {
+    padding: 10px;
+  }
+
+}
+/* Original colors */
+body {
+  background-color: #ffffff; 
+}
+
+header {
+  background-color: transparent;
+}
+
+h1 {
+  background-color: transparent;
+}
+
+h1 {
+  color: #fff;
+} 
+
+/* Rest of original colors... */
+
+/* Enhancements */
+
+body {
+  background-image: url('bg-image.jpg');
+  background-size: cover;
+}
+
+main {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Other enhancements... *//* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Font assignments */
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+}  
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Content styles */
+ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+p {
+  line-height: 1.6;  
+}
+
+/* Mobile fonts */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+}
+
+nav {
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+/* Navigation */
+
+nav a {
+  color: #c89666; /* light brown */
+}
+
+nav a:hover {
+  color: #a87e52; /* slightly darker brown */ 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+/* Index page dog image */
+
+.home-dog-img {
+  width: 400px;
+  height: auto;
+}
+/* Other existing styles */
